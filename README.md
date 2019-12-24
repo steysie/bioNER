@@ -13,19 +13,17 @@ The task is to extract all the names of diseases from a given set of 20,000 para
 
 ## Data Description
 
-The train file has the following structure:
-
 Variable Definition
 
-id Unique ID for a token/word
+**id** Unique ID for a token/word
 
-Doc_ID Unique ID for a Document/Paragraph
+**Doc_ID** Unique ID for a Document/Paragraph
 
-Sent_ID Unique ID for a Sentence
+**Sent_ID** Unique ID for a Sentence
 
-Word Exact word/token
+**Word** Exact word/token
 
-tag (Target) Named Entity Tag
+**tag** (Target) Named Entity Tag
 
 ## Models description 
 
@@ -37,6 +35,9 @@ One of the most common models for NER, bi-LSTM + CRF, shows the f1-score = 0.86 
 ## Models for download
 
 LSTM + CRF model: https://drive.google.com/open?id=1Ij-mMy8EWQ0aphCFZpVUnmGcfHckZQb6
+
 LSTM on pretrained embeddings: https://drive.google.com/open?id=1BwRoTNKqTkLAp3NF-wDeHX-esu-zYYLY
+
 Filtered pretrained embeddings: https://drive.google.com/open?id=1Pm7IolxWa5juZM5RcUvN9R6SC6GKq7Ma
+
 Sentences tagged with UDPipe in CONLLu format: https://drive.google.com/open?id=1-68F34nTyLz-SetqBMcsdqtn0n7NYjBl
