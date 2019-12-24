@@ -32,3 +32,11 @@ tag (Target) Named Entity Tag
 The word embedding (pre-trained fasttext in the base line) will be fed to the input, and at the output we will get its tag (BIO).
 
 One of the most common models for NER, bi-LSTM + CRF, shows the f1-score = 0.86 on the general-domain package. As part of this task, we will strive for this mark, however, since our data is limited by bio-domain, the result may vary.
+
+
+## Models for download
+
+LSTM + CRF model: https://drive.google.com/open?id=1Ij-mMy8EWQ0aphCFZpVUnmGcfHckZQb6
+LSTM on pretrained embeddings: https://drive.google.com/open?id=1BwRoTNKqTkLAp3NF-wDeHX-esu-zYYLY
+Filtered pretrained embeddings: https://drive.google.com/open?id=1Pm7IolxWa5juZM5RcUvN9R6SC6GKq7Ma
+Sentences tagged with UDPipe in CONLLu format: https://drive.google.com/open?id=1-68F34nTyLz-SetqBMcsdqtn0n7NYjBl
