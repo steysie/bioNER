@@ -2,7 +2,7 @@
 In this repository, the files for bioNER project are stored.
 
 ## bioNER Project Description
-Marina Pozhidaeva & Anastasia Nikiforova
+Anastasia Nikiforova and Marina Pozhidaeva
 
 Clinical trials often require detailed patient information, documented in clinical descriptions. Named object recognition (NER) is a fundamental natural language processing (NLP) task for extracting objects of interest (for example, disease names, drug names, and laboratory tests) from clinical notes, to further support and develop clinical and applied research.
 
